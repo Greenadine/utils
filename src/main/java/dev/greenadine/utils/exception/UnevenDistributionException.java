@@ -1,8 +1,11 @@
 package dev.greenadine.utils.exception;
 
+import dev.greenadine.utils.distribution.DistributionMethod;
+import dev.greenadine.utils.distribution.Distributor;
+
 /**
- * Thrown when a {@link dev.greenadine.utils.distribution.GroupDistributor} is unable to evenly distribute items
- * over a set of groups by {@link dev.greenadine.utils.distribution.DistributionMethod#EVEN}.
+ * Thrown when a {@link Distributor} is unable to evenly distribute items
+ * over a set of groups by {@link DistributionMethod#EVEN}.
  *
  * @since 0.1
  * @author Greenadine
