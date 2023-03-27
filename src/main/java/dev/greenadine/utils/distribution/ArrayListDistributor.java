@@ -42,7 +42,7 @@ public class ArrayListDistributor<E>
         Preconditions.checkArgument(!elements.isEmpty(), "ArrayList cannot be empty.");
 
         // Sort elements according to the specified sorting method
-        if (sortingMethod != SortingMethod.RETAIN_ORDER) {
+        if (sortingMethod != SortingMethod.DEFAULT) {
             switch (sortingMethod) {
                 case NATURAL_ORDER -> {
                     Preconditions.checkArgument(elements.get(0) instanceof Comparable, "All elements in ArrayList must implement Comparable when using SortingMethod.NATURAL_ORDER.");

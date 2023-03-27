@@ -14,7 +14,7 @@ public enum SortingMethod {
     /**
      * The elements' order will not be directly influenced by the distributor.
      */
-    RETAIN_ORDER,
+    DEFAULT,
 
     /**
      * The elements will be ordered by their natural ordering, which is determined by the element's class

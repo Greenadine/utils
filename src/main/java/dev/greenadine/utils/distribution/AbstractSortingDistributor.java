@@ -27,7 +27,7 @@ public abstract class AbstractSortingDistributor<E, T extends Collection<E>>
     protected AbstractSortingDistributor() {
         super();
 
-        sortingMethod = SortingMethod.RETAIN_ORDER;
+        sortingMethod = SortingMethod.DEFAULT;
     }
 
     /**
