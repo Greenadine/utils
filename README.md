@@ -1,3 +1,6 @@
 # utils
 A collection of Java utilities I wrote. Currently contains the following:
-- `GroupDistributor` - A utility class for distributing a `Collection` of items over a (predetermined) amount of groups.
+- Distribution framework
+
+## Distribution Framework
+A framework for distributing elements of a `Collection` into groups according to various configurable parameters.
